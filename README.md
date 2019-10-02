@@ -1,4 +1,6 @@
 # graphql-server-setup
 Setup for GraphQL server using Nodejs, Express and MongoDB
 
-Medium article - https://medium.com/@utkarshprakash/setting-up-graphql-server-with-nodejs-express-and-mongodb-d72fba13216
+To run the app
+npm install
+node app.js
