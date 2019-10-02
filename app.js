@@ -6,7 +6,7 @@ const app = express();
 const mongoose = require('mongoose');
 
 
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@<Mlab_URL>')
+mongoose.connect('mongodb://localhost:27017/graphql')
 
 mongoose.connection.once('open', () => {
     console.log('conneted to database');
